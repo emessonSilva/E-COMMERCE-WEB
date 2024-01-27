@@ -1,6 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://my-json-server.typicode.com/emessonSilva/E-COMMERCE-WEB",
+  baseURL: "https://my-json-server.typicode.com/augustocesarfmo/rest-crud-web",
   timeout: 1000,
 });
