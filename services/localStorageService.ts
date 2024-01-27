@@ -15,3 +15,6 @@ export const getDataFromLocalStorage = (key: KeyStrings): never | null => {
   return null;
 };
 
+// export const removeDataFromLocalStorage = (key) => {
+//   // Lógica para remover dados do localStorage
+// };
