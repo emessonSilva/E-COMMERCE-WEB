@@ -57,7 +57,7 @@ function shoppingCartReducer(products: Product[], action: Action): Product[] {
     case "added":
       return [
         ...products,
-        { id: action.id, title: action.title, price: action.price },
+        { id: action.id, title: action.title, price: action.price, image: action.image },
       ];
     case "deleted": {
       return products.filter((p) => p.id !== action.id);
