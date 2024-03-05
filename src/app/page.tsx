@@ -72,7 +72,7 @@ export default function Home() {
                   width="100%"
                   alt={item.title}
                   className="w-[200px] object-cover h-[140px]"
-                  src={`https://picsum.photos/id/${item.id}/400/300`}
+                  src={item.image}
                 />
               </CardBody>
               <CardFooter className="flex flex-col text-small gap-2">
