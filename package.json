@@ -1,7 +1,7 @@
 {
-  "name": "aula01-webservices",
-  "version": "0.1.0",
   "homepage": "https://emessonSilva.github.io/E-COMMERCE-WEB",
+  "name": "e-commerce-web",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
